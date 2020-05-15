@@ -1,0 +1,51 @@
+*{
+
+  padding:0;
+}
+
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/white1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    margin-left: 45%;
+}
+
+
+.wrapper{
+  margin:0 auto;
+  width:80%;
+}
+.header-panel{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.header-panel li{
+  display: inline-block;
+}
+
+.header-panel li a{
+  color: black;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: arial;
+  font-size: 12px;
+}
+
+.header-panel li.active a{
+  border: 1px solid blue;
+}
+
+
+.header-panel li a:hover{
+  border: 1px solid black;
+}
+
+.lul{
+  padding-top: 36%;
+
+}

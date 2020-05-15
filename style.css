@@ -1,0 +1,370 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/black4.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+
+.wrapper{
+  margin:0 auto;
+  width:80%;
+}
+.header-panel{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.header-panel li{
+  display: inline-block;
+}
+
+.header-panel li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: arial;
+  font-size: 12px;
+}
+
+.header-panel li.active a{
+  border: 1px solid white;
+}
+
+
+.header-panel li a:hover{
+  border: 1px solid white;
+}
+
+.full h1{
+  margin-left: 28%;
+  position: absolute;
+  top:10%;
+  font-size: 40px;
+  color: White;
+}
+.Query1{
+  padding-top:18%;
+  padding-bottom:5%;
+}
+
+.Query1 p{
+  color: white;
+  padding-right : 20px;
+}
+
+#first{
+  position: absolute;
+  top:28%;
+  left:70%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 20px ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#second{
+  position: absolute;
+  top:38%;
+  left:70%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 20px ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#third{
+  position: absolute;
+  top:49%;
+  left:70%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 20px ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#fourth{
+  position: absolute;
+  top:60%;
+  left:70%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 20px ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#fifth{
+  position: absolute;
+  top:28%;
+  left:70%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 20px ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#sixth{
+  position: absolute;
+  top:38%;
+  left:70%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 20px ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#seventh{
+  position: absolute;
+  top:49%;
+  left:70%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 20px ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#eigth{
+  position: absolute;
+  top:60%;
+  left:70%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 20px ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#nineth{
+  position: absolute;
+  top:28%;
+  left:70%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 20px ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#tenth{
+  position: absolute;
+  top:57%;
+  left:70%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 20px ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#insert1{
+  position: absolute;
+  top:77%;
+  left:46%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 60px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#delete1{
+  position: absolute;
+  top:77%;
+  left:26%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 60px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#create1{
+  position: absolute;
+  top:77%;
+  left:66%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 60px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.Query1 input[type="submit"]{
+
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding:10px 20px ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.Query2{
+  //padding-top:13%;
+  padding-bottom:5%;
+}
+
+.Query2 p{
+  color: white;
+  padding-right : 20px;
+}
+
+.Query2 input{
+
+}
+
+.Query3{
+  //padding-top:13%;
+  padding-bottom:5%;
+}
+
+.Query3 p{
+  color: white;
+  padding-right : 20px;
+}
+
+.Query3 input{
+
+}
+
+
+.Query4{
+  //padding-top:13%;
+  padding-bottom:5%;
+}
+
+.Query4 p{
+  color: white;
+  padding-right : 20px;
+}
+
+.Query4 input{
+
+}
+
+.Query5{
+  padding-top:18%;
+  padding-bottom:5%;
+}
+
+.Query5 p{
+  color: white;
+  padding-right : 20px;
+}
+
+.Query5 input{
+
+}
+
+.Query6{
+  //padding-top:13%;
+  padding-bottom:5%;
+}
+
+.Query6 p{
+  color: white;
+  padding-right : 20px;
+}
+
+.Query6 input{
+
+}
+
+.Query7{
+  //padding-top:13%;
+  padding-bottom:5%;
+}
+
+.Query7 p{
+  color: white;
+  padding-right : 20px;
+}
+
+.Query7 input{
+
+}
+
+.Query8{
+  //padding-top:13%;
+  padding-bottom:5%;
+}
+
+.Query8 p{
+  color: white;
+  padding-right : 20px;
+}
+
+.Query8 input{
+
+}
+
+.Query9{
+  padding-top:18%;
+  padding-bottom:16%;
+}
+
+.Query9 p{
+  color: white;
+  padding-right : 20px;
+}
+
+.Query9 input{
+
+}
+
+.Query10{
+  //padding-top:13%;
+  padding-bottom:5%;
+}
+
+.Query10 p{
+  color: white;
+  padding-right : 20px;
+}
+
+.Query10 input{
+
+}
